@@ -1,11 +1,6 @@
 ---
-title: Lance Gutin
-url: http://lancegutin.com
-timezone: Eastern Time (US & Canada)
-permalink: pretty
-markdown: kramdown
-analytics_id: UA-17044912-3
-description: Designer
+title: dev
+timezone: UTC
 collections:
   uploads:
     title: Uploads
@@ -22,4 +17,11 @@ defaults:
     path: ''
     type: posts
   values:
+    layout: post
     permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
