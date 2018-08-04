@@ -1,0 +1,33 @@
+{% capture content %}
+
+<main role="main" class="row">
+	<div class="col span_16">
+		<div class="title">
+			<h1 class="center">{{ current.parent.title }}</h1>
+			<div class="description">{{ current.title }}</div>
+		</div>
+		<img class="border" src="/assets/urbanstems-storefront.png" alt="Legacy storefront">
+		<h4>Product availability on the UrbanStems storefront varies with delivery location and date.</h4>
+		<h2>The Situation</h2>
+		<p>
+			In the world of online retail, the storefront is sacred real estate. It's the one page where customers can efficiently compare products and it's ultimately where most shopping takes place. At UrbanStems, the storefront changes based on delivery location and date. To avoid showing unavailable products, these details are captured upfront. In the earliest versions of the storefront, significant space was devoted to these fields as well as filters for product category.
+		</p>
+		<img class="border" src="/assets/urbanstems-prototype.gif" alt="Storefront prototype">
+		<h4>Storefront prototype built using Flinto.</h4>
+		<h2>The Concept</h2>
+		<p>
+			In this new design, location and date along with the category filters are combined into a single, dynamic bar. Fields expand upon interaction and use abbreviated states and placeholders to better utilize space. IP geolocation is used to suggest a location for first time customers. Delivery mode appears next to address to indicate how the product will be delivered. Filters are collected into a single menu, offering additional room for occasion and price filters. Most importantly, product cards appear higher on the screen.
+		</p>
+		<p>
+			On mobile, this improvement is even more dramatic. Options remain on one line and connect to dedicated menus for easy input.
+		</p>
+		<img src="/assets/urbanstems-mobile-concept.png" alt="Mobile storefront">
+		<h4>Search and filter options are cleverly condensed on the mobile storefront.</h4>
+	</div>
+</main>
+
+{% include footer.html %}
+
+{% endcapture %}
+
+{% include default.html %}

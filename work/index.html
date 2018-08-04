@@ -1,0 +1,98 @@
+{% capture content %}
+
+<main role="main" class="row">
+
+{% for work in pages %}
+  {% if work.title == 'UrbanStems' %}
+
+    <div class="index">
+
+      <div class="title">
+        <h1 class="center">
+          <a href="http://lancegutin.com/work/urbanstems/case-study">{{ work.title }}</a>
+        </h1>
+        <div class="description">
+          {{ work.meta.description }}
+        </div>
+      </div>
+
+      <div class="index">
+        <p class="center">
+          Creating a flower subscription service and establishing a new revenue stream in the process.
+        </p>
+        <div class="description">
+          <a href="http://lancegutin.com/work/urbanstems/case-study">See Case Study</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="center">
+          Prototyping a new storefront search and filter experience.
+        </p>
+        <div class="description">
+          <a href="http://lancegutin.com/work/urbanstems/concept">See Concept</a>
+        </div>
+      <div>
+
+    </div>
+
+    <hr class="alt" />
+
+  <div class="secondary-index">
+    <div class="description">
+      Client Work
+    </div>
+  </div>
+
+  {% endif %}
+{% endfor %}
+
+
+{% for work in pages %}
+  {% if work.title != 'UrbanStems' %}
+
+    <div class="index">
+      <h1 class="center">
+        <a href='{{ work.url }}'>{{ work.title }}</a>
+      </h1>
+      <div class="description">
+        {{ work.meta.description }}
+      </div>
+    </div>
+
+  {% endif %}
+{% endfor %}
+
+
+<!--
+  {% for work in pages %}
+    {% if work.meta.index != 'secondary' %}
+
+      <div class="work-index">
+        <h1>
+            <a href='{{ work.url }}'>{{ work.title }}</a>
+          </h1>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+  <hr class="alt" />
+  <div class="secondary-index">
+
+  {% for work in pages %}
+    {% if work.meta.index == 'secondary' %}
+
+    <h3><a href='{{ work.url }}'>{{ work.title }}</a></h3>
+
+    {% endif %}
+  {% endfor %}
+
+  </div>
+-->
+
+</main>
+
+{% endcapture %}
+
+{% include default.html %}

@@ -1,0 +1,25 @@
+---
+title: Lance Gutin
+url: http://lancegutin.com
+timezone: Eastern Time (US & Canada)
+permalink: pretty
+markdown: kramdown
+analytics_id: UA-17044912-3
+description: Designer
+collections:
+  uploads:
+    title: Uploads
+    output: true
+  writing:
+    output: true
+  travel:
+    output: true
+  work_art_the-handwritten-word:
+    output: true
+    permalink: "/work/art/the-handwritten-word/:path"
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/posts/:title/"

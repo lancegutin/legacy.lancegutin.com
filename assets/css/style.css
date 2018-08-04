@@ -1,0 +1,533 @@
+@import url("reset.css");
+@import url("responsive.gs.16col.css");
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  color: #333;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 3rem;
+  text-align: center;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+article {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.25;
+  max-width: 720px;
+  margin: 0 auto 2rem auto;
+}
+
+h1.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.25;
+  max-width: 720px;
+  margin: 3.75rem auto 1.5rem auto;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.75;
+  max-width: 720px;
+  margin: 0 auto 2rem auto;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+  max-width: 720px;
+  margin: -2rem auto 3rem auto;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+  max-width: 720px;
+  margin: -2.5rem auto 2.5rem auto;
+}
+
+h1 a, h2 a, h3 a {
+  color: #333;
+}
+
+a {
+  color: #1769FF;
+  text-decoration: none;
+    -webkit-transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+       -moz-transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -ms-transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+         -o-transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+a:hover {
+  color: #1769FF;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2;
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+}
+
+p.center {
+  text-align: center;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+main img {
+  max-width: 960px;
+  margin: 0 0 3rem 0;
+}
+
+p img {
+  position: relative;
+  left: -120px;
+  display: block;
+  margin: 0;
+}
+
+.border {
+  border: solid 1px #ccc;
+}
+
+ol {
+  font-size: 1.5rem;
+  list-style-type: decimal;
+  line-height: 2;
+  padding-left: 2rem;
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+  }
+
+ul {
+  font-size: 1.5rem;
+  list-style-type: disc;
+  line-height: 2;
+  padding-left: 2rem;
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  line-height: 2;
+  border-left: 0.5rem solid #ccc;
+  padding-left: 1.5rem;
+  max-width: 720px;
+  margin: 0 auto 3rem auto;
+  color: #666;
+}
+
+hr {
+  border: none;
+  margin: 3.5rem 0 2.5rem 0;
+}
+
+hr.alt {
+  border: none;
+  margin: 9rem 0 9rem 0;
+}
+
+hr:before {
+  font-size: 1.5rem;
+  content:'***';
+  text-align: center;
+  display: block;
+  letter-spacing:0.125rem;
+  line-height: 3rem;
+}
+
+hr.alt:before {
+  color: #999;
+  font-size: 1.5rem;
+  content:'\2022  \2022  \2022';
+  text-align: center;
+  display: block;
+  letter-spacing:0.125rem;
+  line-height: 3rem;
+}
+
+sup {
+	line-height: 0;
+	vertical-align: super;
+	font-size: 0.875rem;
+	padding-left: 0.125rem;
+}
+
+sub {
+	line-height: 0;
+	vertical-align: sub;
+	font-size: 0.875rem;
+}
+
+.footnotes {
+	font-size: 0.875rem;
+	color: #666;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.footnotes ol {
+	padding-top: 1.5rem;
+}
+
+.footnotes:before {
+  content:' ';
+  width: 2rem;
+  border-top: #ccc solid 1px;
+  position: absolute;
+}
+
+.footnotes p {
+  margin-bottom: 0;
+}
+
+.footnotes ol {
+  margin-bottom: 3rem;
+}
+
+.footnotes a {
+  display: none;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+.index {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 6rem auto;
+}
+
+.index h1 {
+  text-align: center;
+  margin: 0 auto;
+  }
+
+.work-index {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 6rem auto;
+}
+
+.work-index h1 {
+  text-align: center;
+  line-height: 1.125;
+  margin: 0 auto;
+}
+
+.secondary-index {
+  margin: 0 auto 6rem auto;
+  text-align: center;
+}
+
+.secondary-index .description {
+  font-family: 'Varela Round', sans-serif;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+}
+
+.secondary-index h3 {
+  font-size: 2.5rem;
+  color: #999;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.secondary-index a {
+  color: #999;
+}
+
+.secondary-index a:hover {
+  color: #1769FF;
+}
+
+footer {
+  max-width: 720px;
+  margin: 3rem auto 3rem auto;
+}
+
+footer a {
+  font-family: 'Varela Round', sans-serif;
+  color: #1769FF;
+  font-size: 14px;
+  line-height: 3.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+#logo {
+	margin-bottom: 2.25rem;
+}
+
+#logo img {
+	display: block;
+	height: 3.75rem;
+	margin: 0 auto;
+}
+
+nav {
+  font-family: 'Varela Round', sans-serif;
+  color: #1769FF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 30rem;
+  margin: 0 auto 3rem auto;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+nav ul li {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 25%;
+  list-style-type: none;
+  float: left;
+  margin-right: 0;
+  display: block;
+}
+
+
+nav a:link {
+  text-decoration: none;
+}
+
+.first-square {
+  margin: 0 4.1666667% 4.1666667% 0;
+  width: 47.9166667%;
+  padding: 4.1666667%;
+  float: left;
+  border: solid 1px #ccc;
+}
+
+.last-square {
+  margin: 0 0 4.1666667% 0;
+  width: 47.9166667%;
+  padding: 4.1666667%;
+  float: left;
+  border: solid 1px #ccc;
+}
+
+.svg {
+  margin: 0;
+  width: 100%;
+}
+
+.date {
+  font-family: 'Varela Round', sans-serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.index-date {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.index-spacer {
+  margin-bottom: 9rem
+}
+
+.description {
+  font-family: 'Varela Round', sans-serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 auto 3rem auto;
+}
+
+.about {
+  font-family: 'Varela Round', sans-serif;
+  color: #666;
+  font-size: 14px;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 720px;
+  margin: 9rem auto 3rem auto;
+  text-align: center;
+}
+
+.collapsed, .collapsed-alt {
+  margin: 0;
+  float: left;
+  cursor: pointer;
+}
+
+.expanded {
+  display: none;
+}
+
+.expand-box, .expand-box-alt {
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 2.5;
+  text-transform: uppercase;
+  background-color: #333;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  float: left;
+  display: block;
+}
+
+.expand-box:hover, .expand-box-alt:hover {
+  background-color: #1769FF;
+  cursor: pointer;
+}
+
+.expand-set {
+  overflow: hidden;
+}
+
+::-moz-selection, ::selection {
+  background: #1769FF;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: #1769FF;
+  color: #FFFFFF;
+}
+
+@media ( max-width : 980px ) {
+
+  p img {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+  }
+
+  main img {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media ( max-width : 720px ) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media ( max-width : 600px ) {
+
+  html {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.25;
+    max-width: 720px;
+    margin: 0 auto 2rem auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.25;
+    max-width: 720px;
+    margin: 3rem auto 1.5rem auto;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    line-height: 1.75;
+    max-width: 720px;
+    margin: 0 auto 2rem auto;
+  }
+
+  .secondary-index h3 {
+    font-size: 1.75rem;
+  }
+
+  footer a, nav ul li, .date, .role, .about, .expand-box  {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}

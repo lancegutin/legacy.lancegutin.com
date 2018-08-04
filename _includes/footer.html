@@ -1,0 +1,13 @@
+{% if parent.title != 'UrbanStems' %}
+
+  <footer class="row">
+  	<a href="{{ parent.url }}">{{ parent.title }}</a>
+  </footer>
+
+{% else %}
+
+  <footer class="row">
+    <a href="{{ parent.parent.url }}">{{ parent.parent.title }}</a>
+  </footer>
+
+{% endif %}

@@ -1,0 +1,12 @@
+---
+title: Antisocial Networks
+date: 2010-07-08 17:39:00 Z
+---
+
+A while back, a friend of mine introduced me to Craiglist’s [Missed Connections](http://washingtondc.craigslist.org/mis/). The [idea](http://en.wikipedia.org/wiki/Missed_connections) is quite simple, you see or interact with someone but have no way of contacting that person. On Craigslist, the missed connection pages manifest themselves as more or less personal ads to the effect “I saw you here, you were wearing this, I wish we could meet.” Because a successful post requires two individuals to separately log on and reference the same encounter, the chances of finding the person you missed seem slim. Yet, the whole idea floored me. Apparently, missed connections have been appearing on Craigslist since 2000 and I never once stumbled on it. 
+
+Even more intriguing, I think, is to consider how something like missed connections, or in a broader sense social networks (Facebook, Twitter, etc) fit into our actual social lives. When I first learned of missed connections, I thought immediately of what mainstream adoption might be like. Instead of experiencing the torrent of emotions of actually meeting someone new in person, we could passively post our “connection” online, and hope for reciprocation. In this sense, missed connections could be the “easy” way of meeting people by minimizing emotional risk, fear, and rejection from the comfort of your own home.
+
+While this scenario is not a social reality just yet, I don’t think we are far off. Social networks like Facebook certainly add a lot to our world and make staying in touch and connecting incredibly simple. However, what seems to be a simple online activity has clear ramifications for in-person social interaction. In short, are the profiles and statuses we passively read online not adding to but in fact substituting and degrading actual social interaction? Do I really know someone because I “stalked” their Facebook pictures, wall posts, and see their status updates on a daily basis? In turn, am I less interested in personally connecting with certain people because I supposedly know what’s happening in their life? As with all new technologies, we adopt first and experience the long-term effects later. With regard to online social networking, there has to be a push back at some point.  
+
+(See David Pell’s insightful [blog](http://tweetagewasteland.com/) on the real life effect of the realtime, social web.)
