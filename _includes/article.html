@@ -1,0 +1,17 @@
+<main role="main" class="row">
+	<article class="col span_16">
+
+		{% if current.meta.type == 'photo' %}
+			{{ current.body }}
+		{% else %}
+
+			<h1>
+				<a href='{{ current.url }}'>{{ current.title }}</a>
+			</h1>
+
+			{{ current.body }}
+
+		{% endif %}
+
+	</article>
+</main>

@@ -1,0 +1,34 @@
+{% capture content %}
+
+<main role="main" class="row">
+	<div class="col span_16">
+		<div class="title">
+			<h1 class="center">{{ current.title }}</h1>
+			<div class="description">{{ current.meta.description }}</div>
+		</div>
+		<p>
+			Militello Capital is a private equity investment firm. Their funds include both real estate and venture capital. To support core business functions and help transition to a fully digital operation, Militello worked with Viget to build the first version of Access, a custom Rails app to manage documents.
+		</p>
+		<p>
+			From the start, our team approached this project as an <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a>. Our goal was to work concurrently, iterate quickly, and define the product as we progressed based on stakeholder and user feedback.
+		</p>
+		<p>
+			Access was concieved as a tool for investors, financial advisors, and Militello administrators. Each role was associated with specific permissions as well as various document management workflows. To manage this complexity, we needed a flexible design system that could handle both known and future functionality. <a href="https://material.io/guidelines/">Material Design</a> proved to be a valuable starting point.
+		</p>
+		<img src="/assets/militello-investor-advisor.png">
+		<img src="/assets/militello-admin.png">
+		<p>
+			In addition to document management, considerable thought was given to investor registration. We wanted the on boarding experience to feel professional, intelligent, and secure. Rather than a traditional form, information was captured incrementally across several screens. With this more human approach, we hoped to reinforce Militello's brand and build trust.
+		</p>
+		<img src="/assets/militello-register.png">
+		<p>
+			With basic registration and document sharing complete, the Access app was ready to test with Militello administrators and investors.
+		</p>
+	</div>
+</main>
+
+{% include footer.html %}
+
+{% endcapture %}
+
+{% include default.html %}

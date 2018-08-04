@@ -1,0 +1,106 @@
+{% capture content %}
+
+<main role="main" class="row">
+	<div class="col span_16">
+		<div class="title">
+			<h1 class="center">{{ current.parent.title }}</h1>
+			<div class="description">{{ current.title }}</div>
+		</div>
+		<p>
+			UrbanStems is a startup intent on uprooting the multi-billion dollar flower industry. Unlike traditional online flower retailers, UrbanStems is vertically integrated. Bouquets are arranged at the farm, shipped to distribution centers, and delivered to recipients within hours of the order.
+		</p>
+		<p>
+			In the summer of 2017, I joined UrbanStems as the sole Product Designer. Drawing on my UX background, I influenced nearly all aspects of the <a href="/assets/urbanstems-digital-customer-experience.pdf" target="_blank">digital customer experience</a>. From homepage and storefront to checkout and email follow up, it was my responsibility to design and often build key customer touchpoints, incorporating research and user testing whenever possible.
+		</p>
+		<h2>Identifying an Opportunity</h2>
+		<p>
+			UrbanStems has loyal customers. They love the style of the flower arrangements as well as the convenience that comes with on-demand ordering. Over time, many end up sending bouquets several times over, often to the same loved one or even to themselves.
+		</p>
+		<p>
+			Given this behavior and the high value of repeat customers, we decided to launch a subscription service. Rather than require bouquets be purchased individually, customers could choose a single subscription and get multiple bouquets delivered on a regular schedule. Subscriptions, we theorized, would make repeat buying even easier and, more importantly, increase the average value of each purchase.
+		</p>
+		<p>
+			Work on subscriptions was a collaboration among our design, engineering, and business teams. Alongside Co-Founder and Creative Director Scott Simpson, I helped refine the definition and scope of the project, focusing primarily on UX and visual design activities in addition to user testing.
+		</p>
+		<h2>Building a Shared Understanding</h2>
+		<p>
+			To start, what would this service look like functionally? Beyond a regular order, what was the minimal amount of information needed to send a subscription? We zeroed in on frequency and duration. If we captured how often a customer wanted to send flowers (frequency) and for how long (duration), we could define a basic subscription order. Ideally, we could also offer subscription tiers corresponding to bouquet size.
+		</p>
+		<img class="border" src="/assets/urbanstems-framework.png" alt="Subscription framework">
+		<h4>A summary of possible subscription plans. Not all combinations are practical.</h4>
+		<p>
+			While exhaustive, I knew that 24 subscription combinations was too much. It was overkill for an initial version and, depending on how it was presented, potentially overwhelming to our users. We pushed forward knowing this would be an important issue to address.
+		</p>
+		<h2>Designing for Efficiency and Consistency</h2>
+		<p>
+			Translating this definition to an online experience was our next challenge. Crucially, we needed to present what a subscription was, how it worked, and, above all, why it was worth the cost. Following several whiteboarding sessions, we landed on an initial version.
+		</p>
+
+		<div class="expand-set">
+			<img class="border collapsed" src="/assets/urbanstems-wireframe-small.png" alt="Subscriptions wireframe">
+			<div class="expand-box">Expand</div>
+			<img class="border expanded" src="/assets/urbanstems-wireframe-large.png" alt="Subscriptions wireframe">
+		</div>
+		<h4>The subscriptions wireframe focuses on three plans.</h4>
+
+		<img class="border" src="/assets/urbanstems-basket.png" alt="Subscriptions basket">
+		<h4>Independent of what plan is selected, customers can customize their subscription in the basket.</h4>
+		<p>
+			Fundamentally, the design consists of two parts — the landing page and the basket. The landing page summarizes the offering, incorporating marketing language with more basic details. Hitting any button on the page brings in the basket where users can confirm or adjust preselected subscription settings.
+		</p>
+		<p>
+			This structure was valuable for several reasons. It reuses our form, basket, and checkout components, simplifying development and ensuring a consistent user experience. In addition, it avoids listing every possible subscription option. Instead, three plans are featured, and users are one step away from accessing the remaining combinations in the basket. With time, data could help guide which plans were featured on the landing page.
+		</p>
+
+		<div class="expand-set">
+			<img class="border collapsed" src="/assets/urbanstems-landing-page-v1-small.png" alt="Subscriptions landing page version 1">
+			<div class="expand-box">Expand</div>
+			<img class="border expanded" src="/assets/urbanstems-landing-page-v1-large.png" alt="Subscriptions landing page version 1">
+		</div>
+		<h4>Final design mockup. We launched with a single plan due to operational constraints.</h4>
+
+		<h2>Collecting Feedback</h2>
+		<p>
+			Soon after the initial release, we started thinking about the next iteration. Early numbers for subscriptions ordered were below projections. Anecdotally, we started to hear from peers as well as our customer service team that the language on the landing page was confusing.
+		</p>
+		<p>
+			To get a more complete understanding, I set up a lightweight user study. Within a week, I interviewed 6 customers, offering UrbanStems account credit in exchange for a 30 minute video call and screenshare.
+		</p>
+		<img class="border" src="/assets/urbanstems-study.png" alt="Subscriptions user study">
+		<h4>Compilation of feedback sourced from 6 user interviews.</h4>
+		<h2>Simplifying the Messaging</h2>
+		<p>
+			In the first version of the subscriptions landing page, we attempted to appeal to two audiences — customers who wanted to send a one-of-a-kind gift as well as customers who wanted regular, fresh flowers for their home or office. Unfortunately, I think considering both equally produced a muddy message.
+		</p>
+		<p>
+			For our next iteration, we focused entirely on sending a subscription as a gift. Instead of presenting discrete plans, we focused on how subscriptions worked using a traditional three step process. To end the page, we explicitly address some of the questions we gathered in our user interviews.
+		</p>
+
+		<div class="expand-set">
+			<img class="border collapsed" src="/assets/urbanstems-landing-page-v2-small.png" alt="Subscriptions landing page version 2">
+			<div class="expand-box">Expand</div>
+			<img class="border expanded" src="/assets/urbanstems-landing-page-v2-large.png" alt="Subscriptions landing page version 2">
+		</div>
+		<h4>The second iteration focuses on how the service works.</h4>
+
+		<h2>Considering the Context</h2>
+		<p>
+			Along with refreshing the landing page, we took the opportunity to make sure other areas of the website pointed to subscriptions. Most notably, we included a promo section at the bottom of the storefront. Customers in the buying mindset now encountered subscriptions next to our regular product lineup.
+		</p>
+		<p>
+			Additionally, once customers added an eligible bouquet to their basket, they now saw an upsell component. Simply checking a box allows customers to quickly convert their single bouquet into a subscription plan without leaving the checkout flow.
+		</p>
+		<img src="/assets/urbanstems-mobile.png" alt="Mobile storefront and basket">
+		<h4>Subscription references were added to the storefront and basket.</h4>
+		<h2>Wrapping Up</h2>
+		<p>
+			As is true so often in design, rarely do you hit the target exactly on the first try. The key, of course, is to keep learning and iterating. With our second release, the rate of subscription purchases increased and our customer service team reported fewer incidents of confusion.
+		</p>
+	</div>
+</main>
+
+{% include footer.html %}
+
+{% endcapture %}
+
+{% include default.html %}

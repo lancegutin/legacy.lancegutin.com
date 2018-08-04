@@ -1,0 +1,42 @@
+{% capture content %}
+
+<main role="main" class="row">
+
+{% for article in posts %}
+
+	<div class="index-spacer">
+
+		{% if article.meta.type == 'photo' %}
+			{{ article.body }}
+
+		{% elsif article.meta.type == 'quote' %}
+
+			<h1>
+				<a href='{{ article.url }}'>{{ article.title }}</a>
+			</h1>
+
+			{{ article.body }}
+
+		{% else %}
+
+			<h1>
+				<a href='{{ article.url }}'>{{ article.title }}</a>
+			</h1>
+
+			{{ article.body }}
+
+			<div class="index-date">
+				{{ article.date | date: "%b %-d, %Y" }}
+			</div>
+
+		{% endif %}
+
+	</div>
+
+{% endfor %}
+
+</main>
+
+{% endcapture %}
+
+{% include default.html %}
