@@ -5,8 +5,18 @@ collections:
   posts:
     title: Posts
     output: true
+  travel:
+    title: Travel
+    output: true
   uploads:
     title: Uploads
+    output: true
+  work_art_the-handwritten-word:
+    title: Work Art The Handwritten Word
+    output: true
+    permalink: "/work/art/the-handwritten-word/:path"
+  writing:
+    title: Writing
     output: true
 defaults:
 - scope:
